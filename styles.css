@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "ExtraBold";
+  src: url(fonts/Roboto-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "LightItalic";
+  src: url(fonts/Roboto-LightItalic.ttf) format("truetype");
+}
