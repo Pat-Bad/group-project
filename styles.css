@@ -19,6 +19,7 @@
 }
 
 /* Testimonial */
+
 .testimonial {
   background-color: #e5e7eb;
   color: #1f2937;
@@ -49,11 +50,41 @@
 
 /* CTA  */
 
+.call-to-action {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 7rem;
+  padding: 2rem 5rem;
+  border-radius: 5px;
+  gap: 1rem;
+}
+
+.call-to-action-text {
+  font-size: 18px;
+}
+
+.call-to-action-text p {
+  color: #e5e7eb;
+}
+
+.call-to-action-button button {
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+  border: solid #e5e7eb 2px;
+  font-family: "Regular", sans-serif;
+  font-weight: bold;
+}
+
 /* Footer */
 
 footer {
   background-color: #1f2937;
   color: #f9faf8;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
