@@ -11,3 +11,49 @@
   font-family: "Regular" format("truetype");
   src: url(fonts/Roboto-Regular.ttf);
 }
+
+/* i had to add property in the universal selector, to avoid writing the margins for each container */
+
+* {
+  margin: 0;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.testimonial-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.testimonial-text {
+  font-family: "LightItalic", sans-serif;
+  font-size: 36px;
+}
+
+.testimonial-caption {
+  font-family: "Regular";
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* CTA  */
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 1rem;
+}
