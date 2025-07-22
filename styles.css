@@ -2,6 +2,7 @@
   font-family: "ExtraBold";
   src: url(fonts/Roboto-ExtraBold.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "LightItalic";
   src: url(fonts/Roboto-LightItalic.ttf) format("truetype");
@@ -10,4 +11,40 @@
 @font-face {
   font-family: "Regular" format("truetype");
   src: url(fonts/Roboto-Regular.ttf);
+}
+
+h2 {
+  font-family: "ExtraBold";
+  text-align: center;
+  color: #1F2937;
+}
+
+.product-items {
+  display: flex;
+  /*for smaller screens*/
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+small {
+  font-family: "LightItalic";
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.product-items img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  border: 3px solid #3882F6
 }
