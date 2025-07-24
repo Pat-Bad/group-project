@@ -2,20 +2,74 @@
   font-family: "ExtraBold";
   src: url(fonts/Roboto-ExtraBold.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "LightItalic";
   src: url(fonts/Roboto-LightItalic.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Regular" format("truetype");
-  src: url(fonts/Roboto-Regular.ttf);
+  font-family: "Regular";
+  src: url(fonts/Roboto-Regular.ttf) format("truetype");
 }
 
-/* i had to add property in the universal selector, to avoid writing the margins for each container */
+/*@font-face {
+  font-family: "Regular" format("truetype");
+  src: url(fonts/Roboto-Regular.ttf);
+}*/
 
+/*Patricia's CSS*/
+h2 {
+  font-family: "ExtraBold";
+  text-align: center;
+  color: #1F2937;
+}
+
+.product-items {
+  display: flex;
+  /*for smaller screens*/
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+small {
+  font-family: "LightItalic";
+  color: #1F2937;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.product-items img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  border: 3px solid #3882F6;
+}
+
+.product-items img:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+/*El's CSS*/
 * {
   margin: 0;
+  padding: 0;
+}
+
+.bg-color {
+  background-color: #1f2937;
 }
 
 /* Testimonial */
@@ -131,3 +185,67 @@ footer {
     padding: 2rem 5rem;
   }
 }
+
+.nav {
+  padding: 1.5rem 0;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+.nav-logo h2 {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: ExtraBold;
+}
+
+.nav-links .link {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-right: 1.1rem;
+  font-family: Regular;
+
+}
+
+.hero-container {
+  max-width: 80%;
+  padding: 8rem 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+.hero-container .hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-family: ExtraBold;
+  margin-bottom: 1rem;
+
+}
+
+.hero-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-family: Regular;
+  margin-bottom: 1rem;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+
+}
+
+.hero-img {
+  width: 50%;
+}
+
