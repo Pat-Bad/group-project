@@ -16,8 +16,9 @@
 /*@font-face {
   font-family: "Regular" format("truetype");
   src: url(fonts/Roboto-Regular.ttf);
-}
+}*/
 
+/*Patricia's CSS*/
 h2 {
   font-family: "ExtraBold";
   text-align: center;
@@ -27,10 +28,10 @@ h2 {
 .product-items {
   display: flex;
   /*for smaller screens*/
-flex-wrap: wrap;
+  flex-wrap: wrap;
 
-justify-content: center;
-gap: 50px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .product {
@@ -60,9 +61,9 @@ small {
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-}
 
-*/ * {
+/*El's CSS*/
+* {
   margin: 0;
   padding: 0;
 }
