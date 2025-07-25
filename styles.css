@@ -19,10 +19,16 @@
 }*/
 
 /*Patricia's CSS*/
+.products-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 h2 {
   font-family: "ExtraBold";
   text-align: center;
   color: #1F2937;
+  margin-bottom: 2rem;
 }
 
 .product-items {
@@ -248,4 +254,3 @@ footer {
 .hero-img {
   width: 50%;
 }
-
