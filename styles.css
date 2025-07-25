@@ -13,16 +13,10 @@
   src: url(fonts/Roboto-Regular.ttf) format("truetype");
 }
 
-/*@font-face {
-  font-family: "Regular" format("truetype");
-  src: url(fonts/Roboto-Regular.ttf);
-}*/
-
 /*El's CSS*/
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .bg-color {
@@ -35,7 +29,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-
 }
 
 .nav-logo h2 {
@@ -76,7 +69,6 @@
   font-size: 48px;
   font-family: "ExtraBold", sans-serif;
   margin-bottom: 1rem;
-
 }
 
 .hero-text p {
@@ -130,7 +122,6 @@ h2 {
   display: flex;
   /*for smaller screens*/
   flex-wrap: wrap;
-
   justify-content: center;
   gap: 7rem;
 }
@@ -162,7 +153,6 @@ small {
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-
 
 
 /* Testimonial */
@@ -279,8 +269,6 @@ footer {
   }
 }
 
-
-
 @media (max-width: 1280px) {
 
   .hero-container {
@@ -317,7 +305,6 @@ footer {
   .hero-text h1 {
     font-size: 40px;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -340,7 +327,6 @@ footer {
   .hero-img img {
     height: 90%;
   }
-
 }
 
 @media (max-width: 500px) {
@@ -357,5 +343,4 @@ footer {
     padding: 0.6em 0.7em;
     font-size: 11px;
   }
-
 }
