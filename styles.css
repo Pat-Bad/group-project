@@ -199,7 +199,7 @@ footer {
 .nav-logo h2 {
   font-size: 24px;
   color: #f9faf8;
-  font-family: ExtraBold, sans-serif ;
+  font-family: "ExtraBold", sans-serif ;
 }
 
 .nav-links .link {
@@ -207,7 +207,7 @@ footer {
   color: #e5e7eb;
   text-decoration: none;
   margin-right: 1.1rem;
-  font-family: Regular, sans-serif;
+  font-family: "Regular", sans-serif;
 
 }
 
@@ -232,7 +232,7 @@ footer {
 .hero-text h1 {
   color: #f9faf8;
   font-size: 48px;
-  font-family: ExtraBold, sans-serif;
+  font-family: "ExtraBold", sans-serif;
   margin-bottom: 1rem;
 
 }
@@ -240,7 +240,7 @@ footer {
 .hero-text p {
   color: #e5e7eb;
   font-size: 18px;
-  font-family: Regular, sans-serif;
+  font-family: "Regular", sans-serif;
   margin-bottom: 1.6rem;
 }
 
