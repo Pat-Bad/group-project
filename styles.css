@@ -106,6 +106,24 @@
 }
 
 /*Patricia's CSS*/
+.about-us h1,
+h3 {
+  font-family: "ExtraBold";
+  text-align: center;
+  color: #1F2937;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-us p,
+ul {
+  font-family: "LightItalic";
+  text-align: center;
+  color: #1F2937;
+  margin-bottom: 2rem;
+}
+
+
 .products-container {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -235,6 +253,8 @@ footer {
   text-align: center;
   padding: 2rem;
 }
+
+
 
 /* Media Queries */
 @media (min-width: 480px) {
