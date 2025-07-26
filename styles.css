@@ -111,6 +111,11 @@
 }
 
 /*Patricia's CSS*/
+.about-us {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .about-us h1,
 h3 {
   font-family: "ExtraBold";
@@ -126,6 +131,8 @@ ul {
   text-align: center;
   color: #1F2937;
   margin-bottom: 2rem;
+  list-style-type: none;
+
 }
 
 
