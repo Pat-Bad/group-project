@@ -35,6 +35,11 @@
   font-size: 24px;
   color: #f9faf8;
   font-family: "ExtraBold", sans-serif;
+  cursor: pointer;
+}
+
+.nav-logo a {
+  text-decoration: none;
 }
 
 .nav-links .link {
