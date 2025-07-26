@@ -2,10 +2,6 @@ main {
   min-height: 100vh;
 }
 
-.main-container {
-  
-}
-
 .products {
   max-width: 80%;
   margin: 0 auto;
@@ -88,6 +84,7 @@ main {
 }
 
 @media (max-width: 1000px) {
+
   .products {
     column-gap: 2rem;
     row-gap: 4rem;
@@ -100,7 +97,6 @@ main {
   .products-item-title {
     font-size: 0.9rem;
     text-wrap: nowrap;
-    
   }
 
   .products-item-size {
@@ -113,16 +109,19 @@ main {
 }
 
 @media (max-width: 840px) {
+
   .products-item {
     padding: 2rem 4rem;
   }
 }
 
 @media (max-width: 540px) {
+  
   .products {
     column-gap: 0.7rem;
     row-gap: 1.8rem;
   }
+
   .products-item {
     padding: 1.3rem 2.8rem;
   }
