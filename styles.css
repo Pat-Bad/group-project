@@ -28,14 +28,14 @@ header {
   top: 0;
   position: sticky;
   overflow: hidden;
-  padding-top: 1rem;
 }
 
 .nav {
-  padding-top: 1rem;
   max-width: 80%;
+  height: 3.8rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -45,6 +45,7 @@ header {
   color: #f9faf8;
   font-family: "ExtraBold", sans-serif;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 .nav-logo a {
@@ -207,6 +208,56 @@ small {
   cursor: pointer;
 }
 
+@media (max-width: 900px) {
+  .product-items {
+    gap: 4rem;
+  }
+
+  .product-items img {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 715px) {
+  .product-items {
+    gap: 2rem;
+  }
+
+  .product-items img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media (max-width: 680px){
+  .product-items {
+    column-gap: 11rem;
+    row-gap: 6rem;
+  }
+
+  .product-items img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .products-container h2 {
+    font-size: 18px;
+  }
+
+  .product-items {
+    gap: 4rem;
+  }
+
+  .product-items img {
+    height: 110px;
+    width: 110px;
+  }
+}
 
 /* Testimonial */
 

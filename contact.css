@@ -27,23 +27,23 @@ header {
   top: 0;
   position: sticky;
   overflow: hidden;
-  padding-top: 1rem;
 }
 
 .nav {
-  padding-top: 1rem;
   max-width: 80%;
+  height: 3.8rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
-
 
 .nav-logo h2 {
   font-size: 24px;
   color: #f9faf8;
   font-family: "ExtraBold", sans-serif;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 .nav-logo a {
