@@ -154,7 +154,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  min-width: 280px;
+  min-width: 200px;
 }
 
 /* Alternating backgrounds */
@@ -279,7 +279,7 @@ small {
   }
 }
 
-@media (max-width: 680px){
+@media (max-width: 680px) {
   .product-items {
     column-gap: 11rem;
     row-gap: 6rem;
@@ -291,9 +291,7 @@ small {
   }
 }
 
-
 @media (max-width: 480px) {
-
   .products-container h2 {
     font-size: 18px;
   }
@@ -406,6 +404,12 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .about-heading,
+  .about-text-box,
+  .about-us-img {
+    width: 280px;
+  }
+
   .testimonial-text {
     font-size: 36px;
   }
