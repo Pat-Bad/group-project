@@ -21,7 +21,7 @@ main {
 
 .products-item {
   width: 15%;
-  height: 315px;
+  height: 340px;
   border: 3px solid #3882F6;
   border-radius: 10px;
   display: flex;
@@ -129,12 +129,12 @@ main {
 @media (max-width: 540px) {
 
   .products {
-    column-gap: 0.7rem;
-    row-gap: 1.8rem;
+    column-gap: 0.6rem;
+    row-gap: 2.5rem;
   }
 
   .products-item {
-    padding: 1rem 2.5rem;
+    padding: 1rem 2.6rem;
     height: 250px;
   }
 
@@ -145,6 +145,10 @@ main {
 
   .products-item-title {
     font-size: 0.8rem;
+  }
+
+  .products-item-size {
+    margin-bottom: 1rem;
   }
 
   .products-item-price {
