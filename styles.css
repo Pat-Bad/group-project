@@ -129,33 +129,85 @@ header {
 }
 
 /*Patricia's CSS*/
+
+/* About us page */
 .about-us {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.about-us h1,
-strong {
-  font-family: "ExtraBold";
-  text-align: center;
-  color: #1f2937;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.about-intro,
+.about-list,
+.about-info {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  margin: 4rem 2rem;
 }
 
-.about-us p,
-ul {
-  font-family: "LightItalic";
-  text-align: center;
+.about-heading,
+.about-text-box,
+.about-us-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-width: 280px;
+}
+
+/* Alternating backgrounds */
+
+.about-intro .about-heading,
+.about-info .about-text-box {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.about-intro .about-text-box,
+.about-list .about-heading,
+.about-info .about-us-img {
+  background-color: #e5e7eb;
   color: #1f2937;
-  margin-bottom: 2rem;
+}
+
+.about-list .about-text-box {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.about-text-box p {
+  max-width: 600px;
+  line-height: 1.6;
+  font-family: "LightItalic", sans-serif;
+}
+
+/* about list */
+
+.about-list ul {
+  font-family: "LightItalic", sans-serif;
+  margin-bottom: 1rem;
   list-style-type: none;
+  padding-left: 1.2rem;
+  line-height: 1.6;
 }
 
-.about-us img {
-  display: block;
-  margin: 2rem auto;
+.about-us-img {
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.about-us-img img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ----------------------- */
 
 .products-container {
   margin-top: 2rem;
@@ -165,7 +217,6 @@ ul {
 h2 {
   font-family: "ExtraBold";
   text-align: center;
-  color: #1f2937;
   margin-bottom: 2rem;
 }
 
